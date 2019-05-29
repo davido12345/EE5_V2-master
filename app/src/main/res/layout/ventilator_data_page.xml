@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page_Ventilator_Data">
+
+    <TextView
+        android:id="@+id/ventilator"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Ventilator"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ventilator"
+        android:gravity="center"
+        android:text="A fan is a powered machine used to create flow within a fluid, typically a gas such as air. A fan consists of a rotating arrangement of vanes or blades which act on the air. The rotating assembly of blades and hub is known as an impeller, a rotor, or a runner. Wikipedia "
+        android:textSize="15sp"
+        />
+
+</RelativeLayout>

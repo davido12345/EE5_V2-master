@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Page_Select_Session_Admin"
+    tools:showIn="@layout/activity_loading__page_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textViewSessions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Machine Session List "
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/dataStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Not Yet Loaded" />
+
+        <ListView
+            android:id="@+id/listViewSessions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page_Main_Driver">
+
+    <TextView
+        android:id="@+id/Machine_Number"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Machine ID:"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/Sample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/data_sample_arm"
+        android:layout_marginTop="150dp"
+        />
+
+    <TextView
+        android:id="@+id/Machine_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Machine_Number"
+        android:layout_marginTop="35dp"
+        android:text="xxxxxxxxxxx"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/Working_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/transparent"
+        android:text="Machine Map"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/T_Sensor_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="150dp"
+        android:background="@android:color/transparent"
+        android:text="Sensor Log"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Cooling_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ventilator Log"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="250dp"
+        android:background="@android:color/transparent"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:id="@+id/cooling_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="41dp"
+        android:background="@android:color/transparent"
+        android:text="Ventilator Log"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>
